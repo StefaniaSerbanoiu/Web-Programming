@@ -1,0 +1,18 @@
+/* grid layout for a container */
+.container {
+    /* grid container */
+    display: grid;
+
+    /* Sets the grid template rows to repeat 4 times with 1 fractional unit of space each, 
+    and the grid template columns to repeat 4 times with 1 fractional unit of space each */
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+
+    /* Sets the gap between grid cells to 0 */
+    grid-gap: 0;
+}
+
+/* This is a CSS code block that resets the margin and padding of all elements to 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
